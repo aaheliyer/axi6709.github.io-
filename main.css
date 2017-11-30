@@ -1,0 +1,122 @@
+/* the page width must ensure the page centers and stays within 1170. Justify will wrap the content within the width*/
+
+#page-width{
+	width: 1070px;
+	margin: 0 auto;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap; 
+}
+
+/* width 100% ensures it is at the top and has nothing beside*/
+
+#intro{
+	color: #F62459;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: xx-large;
+	margin-top: 75px;
+	width: 100%;
+	
+}
+
+/* background-size:Contain will show full image within the given dimensions */
+#display-picture{
+
+	width: 325px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 325px;
+	background-image: url("dp.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+#text{
+
+	color: #868686;
+	font-weight: 300;
+	font-family: 'Work Sans', sans-serif;
+	text-align: left;
+	font-size: large;
+}
+
+/* gives the section a limited size and introduce a scroll feature to see all links*/
+
+#exercise{
+	height: 250px;
+	overflow: scroll;
+	width: 100%;
+	margin-top: 100px;
+}
+
+/* makes sure no styling is there in the list. Flex wrap ensures the list is divided into multiple lines  */
+ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+h2{
+	color: #333;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 25px;
+
+}
+
+/* Individual links are styled and given a height and width creating a tabular style*/
+li {
+	margin-right: 20px;
+	margin-bottom: 30px; 
+	padding: 40px;
+	height: 80px;
+	width: 225px;
+	background-color: #F62459;
+	border-radius: 10px;
+
+	
+}
+
+/* Hover transition delay, color changes on hover */
+a:hover { 
+	color: #FFFFFF;
+	transition: 0.2s;
+
+
+}
+
+h4 {
+	font-size: x-large;
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 10px;
+	margin-top: -10px;
+	
+}
+a {
+	font-family: 'Work Sans', sans-serif;
+	color: #000;
+	height: 25px;
+	text-decoration: none;
+	display: block;
+}
+#projects{
+	margin-top: 50px;
+	width: 100%;
+}
+#contact {
+	margin-top: 150px;
+
+}
+h3 {
+
+	color: #333;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 10px;
+	text-align: center;
+	
+}
+
